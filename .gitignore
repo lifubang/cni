@@ -3,3 +3,4 @@ gopath/
 *.sw[ponm]
 .vagrant
 release-*
+logo.png
