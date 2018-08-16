@@ -1,18 +1,18 @@
 pipeline:
   build:
-    image: golang
+    image: docker.acmcoder.com/public/golang:latest
     commands:
       - echo "hello drone world"
       - sleep 12
 
   publish:
-    image: golang
+    image: docker.acmcoder.com/public/golang:latest
     commands:
       - echo "this is the second step"
       - sleep 3
 
   deploy:
-    image: golang
+    image: docker.acmcoder.com/public/golang:latest
     commands:
       - echo "this is the third step"
       - sleep 3
