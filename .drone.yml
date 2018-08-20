@@ -9,7 +9,7 @@ pipeline:
     image: docker.acmcoder.com/public/golang:latest
     commands:
       - echo "this is the second step"
-      - sleep 3
+      - sleep 5
 
   deploy:
     image: docker.acmcoder.com/public/golang:latest
